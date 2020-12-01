@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+</body>
+
+
+<script>
+        window.onload = function(){
+            // var arr =[1,1,2,2,2,3,6]
+            // var [a,...x] = arr
+          
+            // console.log(Math.max(...arr));
+            // console.log(a,x);
+
+            //     var cat ={
+            //         lives:9,
+            //         jumps:()=>{
+            //             console.log(this);
+            //             this.lives--;
+            //             console.log(this.lives);
+            //         },
+            //     }
+            //     cat.jumps()
+            //     cat.jumps()
+
+            var box = document.getElementById('box');
+
+            box.onclick = function(){
+                setTimeout(()=>{   //保留上一级的this指向  这样a方法里的b方法里的this 就是 a方法  不会是b方法
+                        console.log(this);
+                },1000)
+            }
+                
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+</script>
+</html>

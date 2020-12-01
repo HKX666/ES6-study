@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+
+    <script>
+
+      
+                //父类
+                class Animal{
+                    
+                    constructor(arg){
+                        this.type= 'animal';
+
+                    }
+                    say(name){
+                        console.log(this.type+'-says-'+name);
+
+                    }
+                    swimming(){
+                        console.log(this.type+"在游泳");
+                    }
+
+                }
+
+                let animal1 = new Animal();
+                animal1.say('xxx')
+                animal1.swimming()
+
+                // 子类
+                class Dog extends Animal{
+                    constructor(arg){
+                        super()     //必须用这个才能调用父级
+                        this.type='dog'
+                    }
+                    sing(){
+                        console.log(this.type+'会唱歌');
+                    }
+
+                }
+                let dog1 = new Dog()
+                dog1.say('ggg')
+                dog1.sing();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    </script>
+</html>

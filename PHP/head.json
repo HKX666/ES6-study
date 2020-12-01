@@ -1,0 +1,47 @@
+[
+    {
+        "photoId": "7906a797de384186a11befb506e2e0c6",
+        "bannerType": 1,
+        "photoUrl": "https://pic.51houniao.com/5e14b9f1fecb473b9e7113037695bf06.jpg",
+        "showTop": 0,
+        "bannerUrl": "",
+        "sellerUserId": "4bc4027c645343f09a964b5c2e9f875b",
+        "productId": "92fce8ad96b94b65a76a3b9fad784641",
+        "proTitle": "阿里，一山又山，一错再错",
+        "amount": 13305.00,
+        "country": "西藏",
+        "routingDat": 14,
+        "routingNigth": 11,
+        "proType": 1
+    },
+    {
+        "photoId": "405bff2bc66a4253a407d62b7381fead",
+        "bannerType": 1,
+        "photoUrl": "https://pic.51houniao.com/dd30c72746124fa3a6cc264a37efd1ba.jpg",
+        "showTop": 1,
+        "bannerUrl": "",
+        "sellerUserId": "4bc4027c645343f09a964b5c2e9f875b",
+        "productId": "bc04e0cf803d4b60bcb8a90f42f39424",
+        "proTitle": "身临奇境，探访神秘青海",
+        "amount": 9202.00,
+        "country": "甘肃省,青海省",
+        "routingDat": 7,
+        "routingNigth": 6,
+        "proType": 1
+    },
+    {
+        "photoId": "4c1d3ed8ec984985ac913cf9cbd93649",
+        "bannerType": 1,
+        "photoUrl": "https://pic.51houniao.com/a370317d4d2b4a03b52711c8e90a965d.jpg",
+        "showTop": 2,
+        "bannerUrl": "",
+        "sellerUserId": "4bc4027c645343f09a964b5c2e9f875b",
+        "productId": "03bd606cb9264baa9e312f02fe832c2f",
+        "proTitle": "唯美北疆 落叶书写的篇章",
+        "amount": 8450.00,
+        "country": "新疆",
+        "routingDat": 9,
+        "routingNigth": 9,
+        "proType": 1
+    }
+]

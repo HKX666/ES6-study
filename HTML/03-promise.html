@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../../练习6--jQuery/js/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+
+</body>
+
+
+
+<script>
+
+    $(function () {
+ 
+
+        function add (a,b){
+            var total  = a+ b;
+            return new Promise(function(resove,reject){
+                if(typeof(a)=='number'){
+                    resove(total)
+                }else{
+                    reject("不是数字")
+                }
+            })
+        }
+
+
+        // 判断错误 用.catch来获取错误
+        add('fd',2).then(function(tt){
+            console.log(tt);
+        }).catch(function(tt){
+            console.log(tt+'z');
+        })
+
+
+        add(3,2)
+        .then((t1)=>{
+            console.log(t1+'j');
+            return add(55,3)
+        },(t2)=> {
+            console.log(t2+'s');
+            return add(55,3)
+        })
+        
+        .then((c1)=>{
+            console.log(c1+'c');
+        },(c2)=>{
+            console.log(c2+'c');
+        })
+
+
+
+
+
+    })
+
+</script>
+
+</html>
